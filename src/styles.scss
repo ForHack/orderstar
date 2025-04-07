@@ -1,1 +1,10 @@
+// Fonts
 @import './assets/fonts/index';
+
+// Tailwindcss
+@import 'tailwindcss';
+
+
+body {
+  @apply p-4;
+}
