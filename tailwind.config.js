@@ -11,6 +11,12 @@ module.exports = {
         info: 'var(--info)',
         success: 'var(--success)',
       },
+      fontSize: {
+        'sm-plus': '15px',
+      },
+      fontFamily: {
+        roboto: 'Roboto, sans-serif',
+      },
     },
   },
   plugins: [],

@@ -1,14 +1,10 @@
 // Fonts
 @use './assets/fonts';
 
-// Config
-@use './styles/index';
+// Base
+@use './styles/index.scss';
 
 // Tailwindcss
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-body {
-  font-family: 'Roboto', sans-serif;
-}

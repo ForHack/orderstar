@@ -1,9 +1,25 @@
 .ui-button {
-  @apply p-4 text-center cursor-pointer font-normal transition-colors border-2 border-transparent outline-none;
+  @apply p-3 text-center cursor-pointer font-normal transition-colors border-2 border-transparent outline-none;
   &.muted {
     @apply bg-muted text-white;
     &:hover {
       @apply bg-accent;
+    }
+
+    &:active {
+      @apply bg-orange-400
+    }
+
+    &:focus-visible,
+    &:focus {
+      @apply border-accent;
+    }
+  }
+
+  &.outline {
+    @apply border border-white;
+    &:hover {
+      @apply bg-accent border-accent;
     }
 
     &:active {
