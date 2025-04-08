@@ -1,2 +1,2 @@
-export type UIButtonSize = 'none' | 'sm' | 'md' | 'lg' | 'full'
-export type UIButtonVariant = 'success' | 'primary' | 'muted' | 'info'
+export type UIRounded = 'lg' | 'full'
+export type UIButtonVariant = 'success' | 'accent' | 'muted' | 'info'

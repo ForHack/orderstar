@@ -1,2 +1,2 @@
-@import './roboto/stylesheet';
-@import './rubik/stylesheet';
+@use './roboto/stylesheet' as roboto;
+@use './rubik/stylesheet' as rubik;
