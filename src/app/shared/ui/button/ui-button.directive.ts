@@ -10,7 +10,7 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 import { UIButtonVariant, UIRounded } from '@shared/ui/button/ui-button.options';
-import { withStyles } from '@shared/utils/miscellaneous/with-styles';
+import { withStyles } from '@shared/utils/miscellaneous';
 
 
 @Component({
@@ -19,6 +19,9 @@ import { withStyles } from '@shared/utils/miscellaneous/with-styles';
   styleUrls: ['ui-button.scss'],
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
+  host: {
+    class: 'ui-button',
+  },
 })
 class UIButtonStyles {
 }
